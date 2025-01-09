@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e6e6cc;
+    overflow-x: hidden;
+}
+.cf-profile-pic{
+    width: 155px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+
+.cf-section-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #353535;
+    border-bottom: 2px solid #353535;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
+
+.cf-contact-info{
+    margin-right: 8px;
+    margin-left: 1px;
+    
+}
+
+.cf-contact-info a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Margins and Paddings CSS*/
+.pl-5{
+    padding-left: 5px;
+}
+
+.m-left-10{
+    margin-left: 10px;
+}
+
+.m-right-5{
+    margin-right: 5px;
+}
+
+
+/* Lists CSS */
+ul {
+    padding: 1rem;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
